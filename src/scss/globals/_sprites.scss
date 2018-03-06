@@ -1,0 +1,191 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$down-arrow-name: 'down-arrow';
+$down-arrow-x: 102px;
+$down-arrow-y: 102px;
+$down-arrow-offset-x: -102px;
+$down-arrow-offset-y: -102px;
+$down-arrow-width: 53px;
+$down-arrow-height: 30px;
+$down-arrow-total-width: 155px;
+$down-arrow-total-height: 153px;
+$down-arrow-image: '../img/spritesheet.png';
+$down-arrow: (102px, 102px, -102px, -102px, 53px, 30px, 155px, 153px, '../img/spritesheet.png', 'down-arrow', );
+$fb-hover-name: 'fb-hover';
+$fb-hover-x: 0px;
+$fb-hover-y: 102px;
+$fb-hover-offset-x: 0px;
+$fb-hover-offset-y: -102px;
+$fb-hover-width: 51px;
+$fb-hover-height: 51px;
+$fb-hover-total-width: 155px;
+$fb-hover-total-height: 153px;
+$fb-hover-image: '../img/spritesheet.png';
+$fb-hover: (0px, 102px, 0px, -102px, 51px, 51px, 155px, 153px, '../img/spritesheet.png', 'fb-hover', );
+$fb-name: 'fb';
+$fb-x: 51px;
+$fb-y: 51px;
+$fb-offset-x: -51px;
+$fb-offset-y: -51px;
+$fb-width: 51px;
+$fb-height: 51px;
+$fb-total-width: 155px;
+$fb-total-height: 153px;
+$fb-image: '../img/spritesheet.png';
+$fb: (51px, 51px, -51px, -51px, 51px, 51px, 155px, 153px, '../img/spritesheet.png', 'fb', );
+$instagram-hover-name: 'instagram-hover';
+$instagram-hover-x: 104px;
+$instagram-hover-y: 0px;
+$instagram-hover-offset-x: -104px;
+$instagram-hover-offset-y: 0px;
+$instagram-hover-width: 51px;
+$instagram-hover-height: 51px;
+$instagram-hover-total-width: 155px;
+$instagram-hover-total-height: 153px;
+$instagram-hover-image: '../img/spritesheet.png';
+$instagram-hover: (104px, 0px, -104px, 0px, 51px, 51px, 155px, 153px, '../img/spritesheet.png', 'instagram-hover', );
+$instagram-name: 'instagram';
+$instagram-x: 104px;
+$instagram-y: 51px;
+$instagram-offset-x: -104px;
+$instagram-offset-y: -51px;
+$instagram-width: 51px;
+$instagram-height: 51px;
+$instagram-total-width: 155px;
+$instagram-total-height: 153px;
+$instagram-image: '../img/spritesheet.png';
+$instagram: (104px, 51px, -104px, -51px, 51px, 51px, 155px, 153px, '../img/spritesheet.png', 'instagram', );
+$linkedin-hover-name: 'linkedin-hover';
+$linkedin-hover-x: 0px;
+$linkedin-hover-y: 51px;
+$linkedin-hover-offset-x: 0px;
+$linkedin-hover-offset-y: -51px;
+$linkedin-hover-width: 51px;
+$linkedin-hover-height: 51px;
+$linkedin-hover-total-width: 155px;
+$linkedin-hover-total-height: 153px;
+$linkedin-hover-image: '../img/spritesheet.png';
+$linkedin-hover: (0px, 51px, 0px, -51px, 51px, 51px, 155px, 153px, '../img/spritesheet.png', 'linkedin-hover', );
+$linkedin-name: 'linkedin';
+$linkedin-x: 51px;
+$linkedin-y: 102px;
+$linkedin-offset-x: -51px;
+$linkedin-offset-y: -102px;
+$linkedin-width: 51px;
+$linkedin-height: 51px;
+$linkedin-total-width: 155px;
+$linkedin-total-height: 153px;
+$linkedin-image: '../img/spritesheet.png';
+$linkedin: (51px, 102px, -51px, -102px, 51px, 51px, 155px, 153px, '../img/spritesheet.png', 'linkedin', );
+$search-name: 'search';
+$search-x: 102px;
+$search-y: 132px;
+$search-offset-x: -102px;
+$search-offset-y: -132px;
+$search-width: 20px;
+$search-height: 20px;
+$search-total-width: 155px;
+$search-total-height: 153px;
+$search-image: '../img/spritesheet.png';
+$search: (102px, 132px, -102px, -132px, 20px, 20px, 155px, 153px, '../img/spritesheet.png', 'search', );
+$twitter-hover-name: 'twitter-hover';
+$twitter-hover-x: 52px;
+$twitter-hover-y: 0px;
+$twitter-hover-offset-x: -52px;
+$twitter-hover-offset-y: 0px;
+$twitter-hover-width: 52px;
+$twitter-hover-height: 51px;
+$twitter-hover-total-width: 155px;
+$twitter-hover-total-height: 153px;
+$twitter-hover-image: '../img/spritesheet.png';
+$twitter-hover: (52px, 0px, -52px, 0px, 52px, 51px, 155px, 153px, '../img/spritesheet.png', 'twitter-hover', );
+$twitter-name: 'twitter';
+$twitter-x: 0px;
+$twitter-y: 0px;
+$twitter-offset-x: 0px;
+$twitter-offset-y: 0px;
+$twitter-width: 52px;
+$twitter-height: 51px;
+$twitter-total-width: 155px;
+$twitter-total-height: 153px;
+$twitter-image: '../img/spritesheet.png';
+$twitter: (0px, 0px, 0px, 0px, 52px, 51px, 155px, 153px, '../img/spritesheet.png', 'twitter', );
+$white-search-name: 'white-search';
+$white-search-x: 122px;
+$white-search-y: 132px;
+$white-search-offset-x: -122px;
+$white-search-offset-y: -132px;
+$white-search-width: 20px;
+$white-search-height: 20px;
+$white-search-total-width: 155px;
+$white-search-total-height: 153px;
+$white-search-image: '../img/spritesheet.png';
+$white-search: (122px, 132px, -122px, -132px, 20px, 20px, 155px, 153px, '../img/spritesheet.png', 'white-search', );
+$spritesheet-width: 155px;
+$spritesheet-height: 153px;
+$spritesheet-image: '../img/spritesheet.png';
+$spritesheet-sprites: ($down-arrow, $fb-hover, $fb, $instagram-hover, $instagram, $linkedin-hover, $linkedin, $search, $twitter-hover, $twitter, $white-search, );
+$spritesheet: (155px, 153px, '../img/spritesheet.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

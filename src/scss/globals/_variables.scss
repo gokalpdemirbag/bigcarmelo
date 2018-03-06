@@ -1,0 +1,51 @@
+
+
+$font: "pridimedium", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-bold: "pridisemibold", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-regular: "pridiregular", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-gist: "gist_rough_uprightbold_two", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-black: "gist_rough_uprightblack", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$font-color: #454545;
+$font-size:16px !default;
+
+$em-base: 16px;
+
+
+$error-color: #B94A48;
+
+$phone-screen: 480px;
+$big-screen: 1920px;
+
+$phone: "max-width: #{$phone-screen}";
+$big: "min-width: #{$big-screen}";
+
+
+@mixin responsive($breakpoint, $media: all) {
+  @media only #{$media} and (#{$breakpoint}) {
+    @content;
+  }
+}
+
+
+@mixin rem($property, $value, $context: $em-base) {
+  #{$property}: $value;
+  #{$property}: cr($value, $context);
+}
+
+@mixin font-size($font-size) {
+  @include rem(font-size, $font-size);
+}
+
+@function calc-rem( $target, $context: $em-base ) {
+  @return $target / $context * 1rem;
+}
+
+@function cr( $target, $context: $default-font-size ) {
+  @return calc-rem( $target, $context );
+}
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
